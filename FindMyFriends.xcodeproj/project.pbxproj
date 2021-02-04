@@ -3,41 +3,122 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6FD4366F25CBD29700A13F13 /* FindMyFriendsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4366E25CBD29700A13F13 /* FindMyFriendsApp.swift */; };
-		6FD4367125CBD29700A13F13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4367025CBD29700A13F13 /* ContentView.swift */; };
+		6F46654825CD2551001EBF1F /* FindMyFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F46654725CD2551001EBF1F /* FindMyFriendsTests.swift */; };
+		6F60C2B425CC647A00EB266A /* UserExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F60C2B325CC647A00EB266A /* UserExtension.swift */; };
+		6F9FFE6025CD2967004BA119 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9FFE5F25CD2967004BA119 /* User.swift */; };
+		6F9FFE6425CD35BE004BA119 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9FFE6325CD35BE004BA119 /* Set.swift */; };
+		6F9FFE6825CD648C004BA119 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6F9FFE6725CD648C004BA119 /* README.md */; };
+		6FD4366F25CBD29700A13F13 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4366E25CBD29700A13F13 /* App.swift */; };
+		6FD4367125CBD29700A13F13 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4367025CBD29700A13F13 /* AppView.swift */; };
 		6FD4367325CBD29800A13F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD4367225CBD29800A13F13 /* Assets.xcassets */; };
 		6FD4367625CBD29800A13F13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD4367525CBD29800A13F13 /* Preview Assets.xcassets */; };
+		6FD4368225CBD2D800A13F13 /* UserAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4368125CBD2D800A13F13 /* UserAnnotation.swift */; };
+		6FD4368625CBD32100A13F13 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4368525CBD32100A13F13 /* MapView.swift */; };
+		6FD436A025CBD8A300A13F13 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4369F25CBD8A300A13F13 /* Location.swift */; };
+		6FD436A625CBD8FE00A13F13 /* UserAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD436A525CBD8FE00A13F13 /* UserAnnotationView.swift */; };
+		6FD436AB25CC21CA00A13F13 /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD436AA25CC21CA00A13F13 /* MapViewCoordinator.swift */; };
+		6FD436C925CC428300A13F13 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 6FD436C825CC428300A13F13 /* ComposableArchitecture */; };
+		6FD436E325CC641900A13F13 /* AppCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD436E225CC641900A13F13 /* AppCore.swift */; };
+		6FF285F825CC990D00F244B6 /* Geocoder in Frameworks */ = {isa = PBXBuildFile; productRef = 6FF285F725CC990D00F244B6 /* Geocoder */; };
+		6FF285FA25CC990D00F244B6 /* ImageFetcher in Frameworks */ = {isa = PBXBuildFile; productRef = 6FF285F925CC990D00F244B6 /* ImageFetcher */; };
+		6FF285FC25CC990D00F244B6 /* TCPClient in Frameworks */ = {isa = PBXBuildFile; productRef = 6FF285FB25CC990D00F244B6 /* TCPClient */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6F46654A25CD2551001EBF1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD4366325CBD29700A13F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD4366A25CBD29700A13F13;
+			remoteInfo = FindMyFriends;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		6F46654525CD2551001EBF1F /* FindMyFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F46654725CD2551001EBF1F /* FindMyFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFriendsTests.swift; sourceTree = "<group>"; };
+		6F46654925CD2551001EBF1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F60C2B325CC647A00EB266A /* UserExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserExtension.swift; sourceTree = "<group>"; };
+		6F9FFE5F25CD2967004BA119 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6F9FFE6325CD35BE004BA119 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		6F9FFE6725CD648C004BA119 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6FD4366B25CBD29700A13F13 /* FindMyFriends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyFriends.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FD4366E25CBD29700A13F13 /* FindMyFriendsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFriendsApp.swift; sourceTree = "<group>"; };
-		6FD4367025CBD29700A13F13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FD4366E25CBD29700A13F13 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		6FD4367025CBD29700A13F13 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		6FD4367225CBD29800A13F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FD4367525CBD29800A13F13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6FD4367725CBD29800A13F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD4368125CBD2D800A13F13 /* UserAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotation.swift; sourceTree = "<group>"; };
+		6FD4368525CBD32100A13F13 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		6FD4369F25CBD8A300A13F13 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		6FD436A525CBD8FE00A13F13 /* UserAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAnnotationView.swift; sourceTree = "<group>"; };
+		6FD436AA25CC21CA00A13F13 /* MapViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCoordinator.swift; sourceTree = "<group>"; };
+		6FD436E225CC641900A13F13 /* AppCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCore.swift; sourceTree = "<group>"; };
+		6FF2860025CC9A2800F244B6 /* Geocoder */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Geocoder; sourceTree = "<group>"; };
+		6FF2860325CC9A2C00F244B6 /* ImageFetcher */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ImageFetcher; sourceTree = "<group>"; };
+		6FF2860625CC9A3000F244B6 /* TCPClient */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TCPClient; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6FD4366825CBD29700A13F13 /* Frameworks */ = {
+		6F46654225CD2551001EBF1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6FD4366825CBD29700A13F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF285F825CC990D00F244B6 /* Geocoder in Frameworks */,
+				6FF285FA25CC990D00F244B6 /* ImageFetcher in Frameworks */,
+				6FD436C925CC428300A13F13 /* ComposableArchitecture in Frameworks */,
+				6FF285FC25CC990D00F244B6 /* TCPClient in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F3AA80825CC690600F12979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F46654625CD2551001EBF1F /* FindMyFriendsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F46654725CD2551001EBF1F /* FindMyFriendsTests.swift */,
+				6F46654925CD2551001EBF1F /* Info.plist */,
+			);
+			path = FindMyFriendsTests;
+			sourceTree = "<group>";
+		};
+		6F60C2B925CC64DA00EB266A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FD436A925CC21BF00A13F13 /* Map */,
+				6FD4367025CBD29700A13F13 /* AppView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6FD4366225CBD29700A13F13 = {
 			isa = PBXGroup;
 			children = (
+				6F9FFE6725CD648C004BA119 /* README.md */,
+				6FF285FF25CC9A0100F244B6 /* Dependencies */,
 				6FD4366D25CBD29700A13F13 /* FindMyFriends */,
+				6F46654625CD2551001EBF1F /* FindMyFriendsTests */,
 				6FD4366C25CBD29700A13F13 /* Products */,
+				6F3AA80825CC690600F12979 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				6FD4366B25CBD29700A13F13 /* FindMyFriends.app */,
+				6F46654525CD2551001EBF1F /* FindMyFriendsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +134,10 @@
 		6FD4366D25CBD29700A13F13 /* FindMyFriends */ = {
 			isa = PBXGroup;
 			children = (
-				6FD4366E25CBD29700A13F13 /* FindMyFriendsApp.swift */,
-				6FD4367025CBD29700A13F13 /* ContentView.swift */,
+				6FD436E125CC640D00A13F13 /* Core */,
+				6FD4367E25CBD2B100A13F13 /* Models */,
+				6FD4368025CBD2BE00A13F13 /* Extensions */,
+				6F60C2B925CC64DA00EB266A /* Views */,
 				6FD4367225CBD29800A13F13 /* Assets.xcassets */,
 				6FD4367725CBD29800A13F13 /* Info.plist */,
 				6FD4367425CBD29800A13F13 /* Preview Content */,
@@ -69,9 +153,75 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6FD4367E25CBD2B100A13F13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6FD4368125CBD2D800A13F13 /* UserAnnotation.swift */,
+				6F9FFE5F25CD2967004BA119 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6FD4368025CBD2BE00A13F13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6F60C2B325CC647A00EB266A /* UserExtension.swift */,
+				6FD4369F25CBD8A300A13F13 /* Location.swift */,
+				6F9FFE6325CD35BE004BA119 /* Set.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6FD436A925CC21BF00A13F13 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				6FD436A525CBD8FE00A13F13 /* UserAnnotationView.swift */,
+				6FD4368525CBD32100A13F13 /* MapView.swift */,
+				6FD436AA25CC21CA00A13F13 /* MapViewCoordinator.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		6FD436E125CC640D00A13F13 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6FD4366E25CBD29700A13F13 /* App.swift */,
+				6FD436E225CC641900A13F13 /* AppCore.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6FF285FF25CC9A0100F244B6 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				6FF2860025CC9A2800F244B6 /* Geocoder */,
+				6FF2860325CC9A2C00F244B6 /* ImageFetcher */,
+				6FF2860625CC9A3000F244B6 /* TCPClient */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6F46654425CD2551001EBF1F /* FindMyFriendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F46654C25CD2551001EBF1F /* Build configuration list for PBXNativeTarget "FindMyFriendsTests" */;
+			buildPhases = (
+				6F46654125CD2551001EBF1F /* Sources */,
+				6F46654225CD2551001EBF1F /* Frameworks */,
+				6F46654325CD2551001EBF1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F46654B25CD2551001EBF1F /* PBXTargetDependency */,
+			);
+			name = FindMyFriendsTests;
+			productName = FindMyFriendsTests;
+			productReference = 6F46654525CD2551001EBF1F /* FindMyFriendsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		6FD4366A25CBD29700A13F13 /* FindMyFriends */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FD4367A25CBD29800A13F13 /* Build configuration list for PBXNativeTarget "FindMyFriends" */;
@@ -85,6 +235,12 @@
 			dependencies = (
 			);
 			name = FindMyFriends;
+			packageProductDependencies = (
+				6FD436C825CC428300A13F13 /* ComposableArchitecture */,
+				6FF285F725CC990D00F244B6 /* Geocoder */,
+				6FF285F925CC990D00F244B6 /* ImageFetcher */,
+				6FF285FB25CC990D00F244B6 /* TCPClient */,
+			);
 			productName = FindMyFriends;
 			productReference = 6FD4366B25CBD29700A13F13 /* FindMyFriends.app */;
 			productType = "com.apple.product-type.application";
@@ -98,6 +254,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					6F46654425CD2551001EBF1F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 6FD4366A25CBD29700A13F13;
+					};
 					6FD4366A25CBD29700A13F13 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -112,20 +272,32 @@
 				Base,
 			);
 			mainGroup = 6FD4366225CBD29700A13F13;
+			packageReferences = (
+				6FD436C725CC428300A13F13 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 6FD4366C25CBD29700A13F13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				6FD4366A25CBD29700A13F13 /* FindMyFriends */,
+				6F46654425CD2551001EBF1F /* FindMyFriendsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6F46654325CD2551001EBF1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FD4366925CBD29700A13F13 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F9FFE6825CD648C004BA119 /* README.md in Resources */,
 				6FD4367625CBD29800A13F13 /* Preview Assets.xcassets in Resources */,
 				6FD4367325CBD29800A13F13 /* Assets.xcassets in Resources */,
 			);
@@ -134,18 +306,83 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6F46654125CD2551001EBF1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F46654825CD2551001EBF1F /* FindMyFriendsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6FD4366725CBD29700A13F13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FD4367125CBD29700A13F13 /* ContentView.swift in Sources */,
-				6FD4366F25CBD29700A13F13 /* FindMyFriendsApp.swift in Sources */,
+				6FD4368225CBD2D800A13F13 /* UserAnnotation.swift in Sources */,
+				6F60C2B425CC647A00EB266A /* UserExtension.swift in Sources */,
+				6FD436E325CC641900A13F13 /* AppCore.swift in Sources */,
+				6FD436AB25CC21CA00A13F13 /* MapViewCoordinator.swift in Sources */,
+				6FD436A025CBD8A300A13F13 /* Location.swift in Sources */,
+				6FD4368625CBD32100A13F13 /* MapView.swift in Sources */,
+				6FD4367125CBD29700A13F13 /* AppView.swift in Sources */,
+				6FD4366F25CBD29700A13F13 /* App.swift in Sources */,
+				6F9FFE6025CD2967004BA119 /* User.swift in Sources */,
+				6F9FFE6425CD35BE004BA119 /* Set.swift in Sources */,
+				6FD436A625CBD8FE00A13F13 /* UserAnnotationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6F46654B25CD2551001EBF1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD4366A25CBD29700A13F13 /* FindMyFriends */;
+			targetProxy = 6F46654A25CD2551001EBF1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		6F46654D25CD2551001EBF1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB8WWM39C9;
+				INFOPLIST_FILE = FindMyFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukstins.FindMyFriendsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyFriends.app/FindMyFriends";
+			};
+			name = Debug;
+		};
+		6F46654E25CD2551001EBF1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KB8WWM39C9;
+				INFOPLIST_FILE = FindMyFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukstins.FindMyFriendsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyFriends.app/FindMyFriends";
+			};
+			name = Release;
+		};
 		6FD4367825CBD29800A13F13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -309,6 +546,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6F46654C25CD2551001EBF1F /* Build configuration list for PBXNativeTarget "FindMyFriendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F46654D25CD2551001EBF1F /* Debug */,
+				6F46654E25CD2551001EBF1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6FD4366625CBD29700A13F13 /* Build configuration list for PBXProject "FindMyFriends" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -328,6 +574,37 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6FD436C725CC428300A13F13 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6FD436C825CC428300A13F13 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6FD436C725CC428300A13F13 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		6FF285F725CC990D00F244B6 /* Geocoder */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Geocoder;
+		};
+		6FF285F925CC990D00F244B6 /* ImageFetcher */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImageFetcher;
+		};
+		6FF285FB25CC990D00F244B6 /* TCPClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TCPClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6FD4366325CBD29700A13F13 /* Project object */;
 }
